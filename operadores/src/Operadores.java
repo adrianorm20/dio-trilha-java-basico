@@ -45,5 +45,19 @@ public class Operadores {
 
         System.out.println(!variavel); // variavel = !variavel;
 
+
+        //Operador Ternário
+
+        int a,b;
+        a=5;
+        b=6;
+
+        String resultado = ""; // String resultado = a==b ? "verdadeiro" : "falso";
+        if(a==b)
+            resultado = "verdadeiro";
+        else
+            resultado = "falso";
+        
+        System.out.println(resultado);
     }
 }
