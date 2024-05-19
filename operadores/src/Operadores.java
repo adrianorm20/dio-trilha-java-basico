@@ -35,5 +35,15 @@ public class Operadores {
         numero = numero * -1;
         System.out.println(numero);
 
+        // Incrimentar ou decrementar ou negar
+
+        int numero = 5;
+        boolean variavel = true;
+        System.out.println(numero ++); //numero = numero + 1;
+
+        System.out.println(numero --); //numero = numero - 1;
+
+        System.out.println(!variavel); // variavel = !variavel;
+
     }
 }
