@@ -1,5 +1,6 @@
 public class TiposVariaveis {
     public static void main(String[] args) throws Exception {
+        //Tipos primitivos
         byte idade = 123;
         short ano = 2021;
         int cep = 21070333;
@@ -12,5 +13,8 @@ public class TiposVariaveis {
         int numeroNormal = numeroCurto;
         short numeroCurto2 = (short) numeroNormal; //Casting
 
+
+        final double VALOR_DE_PI = 3.14;  //Variavel Constante, usando final e caixa alta
+        VALOR_DE_PI = 10.77;
     }
 }
