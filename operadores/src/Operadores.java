@@ -23,5 +23,17 @@ public class Operadores {
         concatenacao = "1"+(1+1+1);
 
         System.out.println(concatenacao);
+
+
+        //Operador Unário
+
+        int numero = 5;
+       
+
+        System.out.println(- numero); //numero = - numero;
+
+        numero = numero * -1;
+        System.out.println(numero);
+
     }
 }
