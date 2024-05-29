@@ -2,8 +2,11 @@ public class ResultadoEscolar {
     public static void main(String[] args) {
         int nota = 6;
 
-        if(nota >= 7){  //Condicional Composta
-            System.out.println("Aprovado");
+        if(nota >= 7){  //Condicional Encadeada
+            System.out.println("Aprovado");   
+        }
+        else if(nota >= 5 && nota < 7){
+            System.out.println("Prova Recuperação");
         }else
         System.out.println("Reprovado");
     }
